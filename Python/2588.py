@@ -1,3 +1,4 @@
+#1.
 a = list(map(int,''.join(input())))
 b = list(map(int,''.join(input())))
 total = 0
@@ -9,3 +10,11 @@ for i in [2, 1, 0]:
     else: total += c
     print(c)
 print(total)
+
+#2.
+x = int(input())
+y = input()
+print(x * int(y[2]))
+print(x * int(y[1]))
+print(x * int(y[0]))
+print(x * int(y))
